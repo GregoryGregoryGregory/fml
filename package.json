@@ -1,3 +1,30 @@
 {
-    "todo": "make this"
+  "name": "fmylife"
+  ,
+  "version": "1.0.6",
+  "description": "A wrapper around fmylife.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"fml.\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GregoryGregoryGregory/fml.git"
+  },
+  "dependencies": {
+    "snekfetch": ">=1.0.0",
+    "cheerio": ">=1.0.0"
+  },
+  "keywords": [
+    "fml",
+    "fmylife",
+    "fuckmylife",
+    "es7"
+  ],
+  "author": "GregoryGregoryGregory",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GregoryGregoryGregory/fml"
+  },
+  "homepage": "https://github.com/GregoryGregoryGregory/fml#"
 }
