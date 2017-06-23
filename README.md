@@ -1,10 +1,9 @@
-# fml
 A wrapper around fmylife.com 
 
 ## Usage
 
 ```js
-const fml = require("path/here");
+const fml = require("fmylife");
 
 // Fetch a random fml story
 fml.random().then(console.log);
@@ -13,6 +12,6 @@ fml.random().then(console.log);
 fml.search("memes").then(console.log);
 
 // Fetch top fml stories
-// Filters: day, month, year, allTime
+// Filters: day, week, month, year, allTime
 fml.top("allTime").then(console.log);
 ```
