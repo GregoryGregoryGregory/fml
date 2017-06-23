@@ -14,6 +14,5 @@ fml.search("memes").then(console.log);
 
 // Fetch top fml stories
 // Filters: day, month, year, allTime
-
 fml.top("allTime").then(console.log);
 ```
