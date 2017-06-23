@@ -27,7 +27,7 @@ exports.top = async(filter) => {
         allTime: "top"
     };
 
-    if (!filters[filter]) throw new Error("Invalid fiter.");
+    if (!filters[filter]) throw new Error("Invalid filter.");
 
     const res = (await request(`http://www.fmylife.com/tops/top/${filters[filter]}`)).body;
 
