@@ -1,7 +1,7 @@
 {
   "name": "fmylife"
   ,
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "A wrapper around fmylife.com",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "snekfetch": ">=1.0.0",
-    "cheerio": ">=1.0.0"
+    "cheerio": "^0.20.0"
   },
   "keywords": [
     "fml",
